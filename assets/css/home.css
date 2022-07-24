@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* .main-container{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+.heading1{
+    display: flex;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-evenly;
+    font-size: 15px;
+    align-items: center;
+    background-color: white;
+
+}
+.sign-in{
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+}
+.marvel-heading{
+    padding-top: 8px;
+}
+.signin-svg{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.middle-container{
+    min-height: 80vh;
+    background-image: url("../images/img1noring.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.shangchi-title-container{
+    display: none;
+}
+.silver-rings{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 680px;
+    top: 140px;
+    animation: rings 10s linear infinite;
+}
+.shangchi-logo{
+    height: 110px;
+    width: 350px;
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+@keyframes rings{
+    0%{
+        transform: rotate(-180deg);
+    }
+}
+
+.ring1{
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    left: 66%;
+    top: 270px;
+    animation: ring1 4s ease-in-out infinite;
+}
+@keyframes ring1{
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+.ring2{
+    height: 160px;
+    width: 200px;
+    position: absolute;
+    left: 64%;
+    top: 80px;
+    animation: ring2 4s linear infinite;
+}
+@keyframes ring2{
+    0%{
+        transform: translateX(-7px);
+    }
+    50%{
+        transform: translateX(7px);
+    }
+    100%{
+        transform: translateX(-7px);
+    }
+}
+
+.ring3{
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    left: 62%;
+    top: 6px;
+    animation: ring3 6s linear infinite;
+}
+@keyframes ring3{
+    0%{
+        transform: translateY(-10px);
+    }
+    25%{
+        transform: translateX(-16px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    75%{
+        transform: translateX(16px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+
+.ring4{
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    left: 22%;
+    top: 230px;
+    animation: ring4 4s ease-in-out infinite;
+}
+@keyframes ring4{
+    0%{
+        transform: translateX(-5px);
+    }
+    50%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(-5px);
+    }
+}
+
+
+.ring5{
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    left: 7%;
+    top: 30px;
+    animation: ring5 4s ease-in-out infinite;
+}
+
+@keyframes ring5{
+    0%{
+        transform: translateY(-8px);
+    }
+    50%{
+        transform: translateY(8px);
+    }
+    100%{
+        transform: translateY(-8px);
+    }
+}
+.list-container{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    /* padding: 20px; */
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.list-container ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 30px;
+    position: relative;
+    cursor: pointer;
+
+}
+.ul-container li a{
+    text-decoration: none;
+    color: black;
+}
+.list-container ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background-color: rgb(10, 139, 190);
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.list-container ul li:hover::after{
+    width: 100%;
+}
+
+.soundtrack-container{
+    font-family: "Roboto Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.soundtrack-img{
+    height: 500px;
+    width: 500px;
+}
+.track-text{
+    font-family: "Roboto Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+.soundtrack-box{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    box-shadow:  10px 10px 12px #bcbcbc,
+             -5px -5px 12px #ffffff;
+}
+.track-cover-container{
+    padding: 5% 10%;
+    margin-bottom: 40px;
+}
+button{
+    margin-top: 10px;
+    width: 160px;
+    height: 50px;
+    font-family: "Roboto Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20%;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+button>a{
+    text-decoration: none;
+    color: black;
+}
+.track-text-listen{
+        padding: 0px 5%;
+}
+span{
+    background: #e33c1b;
+    position: absolute;
+    height: 100%;
+    width: 0;
+    border-radius: 20%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+button:hover span{
+    width: 100%;
+}
+.trailer-video{
+    width: 100%;
+    position: relative;
+}
+
+.trailer-text{
+    font-family: "Roboto Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    position: absolute;
+    top: 250%;
+    left: 5%;
+    color: white;
+}
+.book-tickets{
+    height: 60px;
+    width: 300px;
+    background-color: rgb(212, 17, 17);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius: 10%;
+    font-size: 32px;
+    cursor: pointer;
+}
+.book-tickets>a{
+    text-decoration: none;
+    color: white;
+}
+
+.poster-container-cover{
+    margin: 5% 5%;
+    padding-bottom: 60px;
+}
+.poster-heading{
+    font-family: "Roboto Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.poster-container{
+    display: flex;
+}
+.poster-container>div{
+    margin: 4px;
+}
+.poster-img{
+    width: 100%;
+    transition: 500ms ease-in-out;
+    border: 6px solid white;
+
+}
+.poster-img:hover{
+    transform: scale(1.1);
+    z-index: 5;
+    transition: 400ms ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.buy-svg-container{
+    background-color: #151515;
+padding: 0;
+margin: 0;
+}
+.bluray-buy-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #151515;
+}
+
+
+.bluray-img{
+    width: 20%;
+    margin-top: 5%;
+}
+
+.bluray-buy{
+    width: 450px;
+}
+.bluray-text{
+    font-size: 40px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.bluraybuy-btn{
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(174, 11, 11);
+    width: max-content;
+    font-weight: 700;
+    color: white;
+    font-size: 12px;
+    padding: 2% 4%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+
+svg{
+    display: block;
+
+}
+
+
+.overview-container{
+    font-family: "Roboto Bold", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    display: flex;
+    padding: 5%;
+    margin: 20px 10%;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 14%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.top-overview{
+    /* background-color: aquamarine; */
+    max-width: 75%;
+    margin-bottom: 40px;
+
+}
+.top-overview>div{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.top-overview>p{
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bottom-overview{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom-overview>div>h5{
+    color: #5e5b5b;
+}
+.bottom-overview>div{
+    height: fit-content;
+    width: 30%;
+    padding: 20px;
+    /* background-color: #e33c1b; */
+}
+.left-overview{
+    animation: overview 1s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+@keyframes overview{
+    0%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(20px);
+        visibility: visible;
+    }
+}
+.right-overview-img{
+    width: 80%;
+}
+footer{
+    background-color: #151515;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    border-bottom: 1px solid gray;
+    padding-top: 80px;
+}
+.footer-img{
+    width: 60%;
+    margin-left: 30px;
+}
+.p-img{
+    width:fit-content;
+}
+.p1{
+    margin: 2%;
+min-width: 200px;
+}
+.p1>ul>li{
+    text-decoration: none;
+    color: rgb(131, 127, 127);
+    font-size: 14px;
+    list-style: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 12px;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+.p1>ul>li:hover{
+    color: aliceblue;
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(131, 127, 127);
+    font-size: 12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding-top: 20px;
+padding-bottom: 20px;
+}

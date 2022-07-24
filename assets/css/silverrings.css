@@ -1,0 +1,432 @@
+@media only screen and (max-width:1290px)
+{
+    .silver-rings{
+        position: relative;
+        left: 560px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 280px;
+        top: 100px;
+    }
+
+
+}
+@media only screen and (max-width:1280px)
+{
+    .silver-rings{
+        position: relative;
+        left: 550px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 270px;
+        top: 100px;
+    }
+
+    .ring4{
+        height: 130px;
+        width: 130px;
+    }
+}
+@media only screen and (max-width:1260px)
+{
+    .silver-rings{
+        position: relative;
+        left: 540px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 260px;
+        top: 100px;
+    }
+    .ring4{
+        height: 130px;
+        width: 130px;
+    }
+}
+@media only screen and (max-width:1240px)
+{
+    .silver-rings{
+        position: relative;
+        left: 530px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 250px;
+        top: 100px;
+    }
+    .ring4{
+        height: 120px;
+        width: 120px;
+    }
+}
+@media only screen and (max-width:1220px)
+{
+    .silver-rings{
+        position: relative;
+        left: 520px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 240px;
+        top: 100px;
+    }
+}
+@media only screen and (max-width:1200px)
+{
+    .silver-rings{
+        position: relative;
+        left: 510px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 230px;
+        top: 100px;
+    }
+   
+}
+@media only screen and (max-width:1180px)
+{
+    .silver-rings{
+        position: relative;
+        left: 500px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 220px;
+        top: 100px;
+    }
+}
+@media only screen and (max-width:1160px)
+{
+    .silver-rings{
+        position: relative;
+        left: 490px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 210px;
+        top: 100px;
+    }
+   
+}
+@media only screen and (max-width:1140px)
+{
+    .silver-rings{
+        position: relative;
+        left: 480px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 200px;
+        top: 100px;
+    }
+   
+}
+@media only screen and (max-width:1120px)
+{
+    .silver-rings{
+        position: relative;
+        left: 470px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 180px;
+        top: 100px;
+    }
+   
+}
+@media only screen and (max-width:1100px)
+{
+    .silver-rings{
+        position: relative;
+        left: 460px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 170px;
+        top: 100px;
+    }
+  
+}
+@media only screen and (max-width:1080px)
+{
+    .silver-rings{
+        position: relative;
+        left: 450px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 160px;
+        top: 100px;
+    }
+    
+    .ring4{
+        height: 110px;
+        width: 110px;
+    }
+}
+@media only screen and (max-width:1060px)
+{
+    .silver-rings{
+        position: relative;
+        left: 440px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 150px;
+        top: 100px;
+    }
+   
+}
+@media only screen and (max-width:1040px)
+{
+    .silver-rings{
+        position: relative;
+        left: 430px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 140px;
+        top: 100px;
+    }
+}
+@media only screen and (max-width:1020px)
+{
+    .silver-rings{
+        position: relative;
+        left: 420px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 130px;
+        top: 100px;
+    }
+    .ring4{
+        height: 106px;
+        width: 106px;
+        position: absolute;
+        left: 21%;
+        top: 240px;
+        animation: ring4 4s ease-in-out infinite;
+    }
+}
+@media only screen and (max-width:1000px)
+{
+    .silver-rings{
+        position: relative;
+        left: 410px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 120px;
+        top: 100px;
+    }
+}
+@media only screen and (max-width:980px)
+{
+    .silver-rings{
+        position: relative;
+        left: 400px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 110px;
+        top: 100px;
+    }
+    .ring4{
+        left: 21%;
+    }
+}
+@media only screen and (max-width:960px)
+{
+    .silver-rings{
+        position: relative;
+        left: 390px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 100px;
+        top: 100px;
+    }
+    .ring4{
+        left: 20%;
+    }
+}
+@media only screen and (max-width:940px)
+{
+    .silver-rings{
+        position: relative;
+        left: 380px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 90px;
+        top: 100px;
+    }
+    .ring4{
+        left: 19%;
+    }
+}
+@media only screen and (max-width:920px)
+{
+    .silver-rings{
+        position: relative;
+        left: 370px;
+        top: 140px;
+    }
+    .shangchi-logo{
+        position: relative;
+        left: 80px;
+        top: 100px;
+    }
+    .ring4{
+        left: 18%;
+    }
+}
+@media only screen and (max-width:910px)
+{
+    .silver-rings{
+display: none;
+    }
+    .shangchi-logo{
+display: none;
+    }
+    .ring1,.ring2,.ring3,.ring4,.ring5{
+     display: none;   
+    }
+    .middle-container{
+        background-image: url("../images/img1.jpg");
+        background-size: cover;
+        background-position: center;
+        min-height: 40vh;
+    }
+    .shangchi-title-container{
+        display: block;
+        min-height: 50vh;
+        background-color: rgb(17, 14, 14);
+        /* position: relative; */
+    }
+    .shangchi-title{
+        height: 250px;
+        width: 450px;
+        /* position: absolute;
+        top: 20%;
+        left: 20%; */
+        text-align: center;
+    }
+    .shangchi-title-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .soundtrack-box{
+        flex-direction: column;
+    }
+    .soundtrack-img{
+       padding-top: 20px;
+    }
+    .track-text{
+        padding-top: 30px;
+    }
+    button{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:700px)
+{
+    .video-container{
+        display: none;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:690px)
+{
+    .soundtrack-img{
+        height: 450px;
+        width: 450px;
+    }
+}
+@media only screen and (max-width:660px)
+{
+    .soundtrack-img{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media only screen and (max-width:630px)
+{
+    .soundtrack-img{
+        height: 380px;
+        width: 380px;
+    }
+}
+
+
+
+@media only screen and (max-width:560px){
+    .middle-container{
+        background-image: url("../images/img1.jpg");
+        background-size: cover;
+        background-position: center;
+        min-height: 40vh;
+    }
+    @media only screen and (max-width:630px)
+{
+    .soundtrack-img{
+        height: 330px;
+        width: 330px;
+    }
+}
+}
+@media only screen and (max-width:465px){
+    .middle-container{
+        background-image: url("../images/img1.jpg");
+        background-size: cover;
+        background-position: center;
+        min-height: 30vh;
+    }
+    .sign-in{
+        font-size: 12px;
+        flex-direction: column;
+    }
+    .signin-svg{
+        height: 16px;
+        width: 16px;
+    }
+    .subscribe-heading{
+        font-size: 12px;
+    }
+}
+
