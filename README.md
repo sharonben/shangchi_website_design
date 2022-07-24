@@ -1,4 +1,4 @@
-# shangchi_website_design
+# shangchi website design
 
 This is a website designed using only HTML and CSS for the movie "Shangchi and the legend of the ten rings". The UI design of this website is inspired from the official marvel website. I have added more personalized designs other than on the official website.
 
